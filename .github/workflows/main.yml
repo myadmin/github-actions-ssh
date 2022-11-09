@@ -4,10 +4,9 @@ on:
     #监听push操作
     push:
         branches:
-        # mian分支，你也可以改成其他分支
-        - main
+            # mian分支，你也可以改成其他分支
+            - master
 jobs:
-    # 任务ID
     build:
         runs-on: ubuntu-latest
         # 步骤
